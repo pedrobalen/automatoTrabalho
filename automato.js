@@ -34,7 +34,7 @@ function processarEntrada(entrada) {
 }
 
 function solicitarEntrada() {
-  rl.question('Digite uma entrada para testar se aceita sufixo e ab): ', (entrada) => {
+  rl.question('Digite uma entrada para testar se aceita sufixo ab: ', (entrada) => {
     if (entrada === '') {
       rl.close();
     } else {
